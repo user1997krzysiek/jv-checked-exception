@@ -19,8 +19,4 @@ public class UserService {
             System.out.println("User" + user.toString() + "Was saved  to detabase");
         }
     }
-
-    public void saveUser(User user) {
-        System.out.println("User " + user.toString() + " was saved to database!!!");
-    }
 }
